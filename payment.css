@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.first-screen {
+    background-color: #F9F9FB;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 86px;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+.logo {
+    width: 123px;
+    height: 40px;
+    display: flex;
+    color: #064BB4;
+    margin-top: 23px;
+}
+.logo2 {
+    width: 123px;
+    height: 40px;
+    display: flex;
+    color: #064BB4;
+    margin-top: 23px;
+}
+.logo  p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.065em;
+    padding-top: 8px !important;
+    padding-left: 6px;
+    color: #064BB4;
+}
+.logo2 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.065em;
+    padding-top: 8px !important;
+    padding-left: 6px;
+    color: #064BB4;
+}
+.logo span{
+    padding-top: 8px !important;
+    font-weight: 600;
+    color: #064BB4;
+}
+.logo2 span {
+    padding-top: 8px !important;
+    font-weight: 600;
+    color: #064BB4;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 500px;
+    margin-top: 31px;
+}
+.menu li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E8E93;
+    letter-spacing: 0.005em;
+    opacity: 0.56;
+    
+}
+.menu a {
+    text-decoration: none !important;
+}
+.menu li:hover {
+    opacity: 100;
+    color: #1C1C1E;
+}
+.frame{
+    width: 254px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.buy {
+    width: 40px;
+    height: 40px;
+    background-color: #F9F9FB;
+    border: 0;
+}
+.buy img {
+    color: #1C1C1E;
+}
+.CTA {
+    display: flex;
+}
+.logIn {
+    background-color: #F9F9FB;
+    padding: 12px 16px;
+    border: 1px solid #1C1C1E;
+    border-radius: 20px;
+    color: #1C1C1E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    margin-right: 16px;
+}
+.signUp {
+    background-color: #BCFF5E;
+    padding: 12px 16px;
+    border: 1px solid #F9F9FB;
+    border-radius: 20px;
+    color: #1C1C1E;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+}
+.screen01 {
+    display: flex;
+}
+.second_screen h3{
+    margin-top: 74px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    margin-bottom: 48px;
+    color: #09080D;
+}
+.second_screen h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #09080D;
+    margin-bottom: 24px;
+}
+.left_screen {
+    width: 722px;
+}
+input {
+    border-radius: 24px;
+    padding-left: 16px;
+}
+.second_screen p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #8E8E93;
+    margin-top: 32px;
+}
+.PayPal, .Pay {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    height: 72px;
+    border-radius: 32px;
+}
+.PayPal {
+    margin-bottom: 24px;
+}
+.PayPal img {
+    margin-left: 24px;
+    margin-bottom: 22px;
+}
+.Pay img {
+    margin-left: 24px;
+    margin-bottom: 22px;
+}
+.form_cart {
+    margin-top: 32px;
+}
+.form_cart p {
+    margin-bottom: 8px;
+    color: #1C1C1E;
+}
+.Name, .numberCart {
+    width: 722px;
+    height: 52px;
+    border: 1px solid #E9EBED;
+    
+}
+.inputcart {
+    display: flex;
+    justify-content: space-between;
+}
+.inputcart1 {
+    width: 224px;
+    height: 52px;
+    margin-bottom: 25px;
+}
+.SaveCard {
+    padding-right: 12px;
+}
+.ConfirmAndPay {
+    margin-top: 48px;
+    width: Hug (204px);
+    height: Hug (56px);
+    padding: 16px 40px 16px 40px;
+    border-radius: 24px;
+    background-color: #BCFF5E;
+    margin-bottom: 120px;
+}
+.error-message {
+    color: red; /* Змінити колір тексту на червоний */
+    font-size: 12px; /* Змінити розмір шрифту */
+    margin-top: 4px; /* Додати відступ зверху для повідомлення про помилку */
+    font-size: 16px;
+  }
+.reverse {
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    margin-left: 80px;
+    width: 399px !important;
+    height: 650px;
+    padding: 24px;
+    border-radius: 20px;
+}
+.details {
+    width: 399px;
+}
+.details p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px !important;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    margin-bottom: 8px;
+}
+.details span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px !important;
+    letter-spacing: 0.005em;
+    color: #636366;
+}
+.list {
+    margin-top: 32px;
+}
+.list h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    margin-bottom: 18px;
+}
+.list1 {
+    display: flex;
+    margin-bottom: 28px;
+}
+.list1 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 21px;
+}
+.list1 p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px !important;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+}
+.input3 h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #1C1C1E;
+    display: block;
+}
+.input3 p {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.005em;
+    color: #09080D;
+    margin-bottom: 32px;
+}
+.input3 span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #8E8E93;
+}
+.seven-screen {
+    background-color: #08172D;
+    padding-top: 120px;
+}
+.footer1 {
+    display: flex;
+}
+.logo1{
+    width: 123px;
+    height: 40px;
+    display: flex;
+    color: white;
+    margin-bottom: 16px;
+}
+.logo1 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.065em;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+.logo1 span{
+    font-weight: 600;
+    color: white;
+}
+.info{
+    margin-bottom: 96px;
+}
+.info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 0.005em;
+    color: #AEAEB2;
+    width: 363px;
+}
+.footer-menu {
+    width: 296px;
+    margin: 0 88px 0 88px;
+}
+.footer-menu1 ul {
+    display: flex;
+    width: 296px;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-menu1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #C5C5C5;
+}
+.footer-menu2 ul {
+    display: flex;
+    width: 296px;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 32px;
+}
+.footer-menu2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #C5C5C5;
+}
+.newsletter p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #8E8E93;
+    margin-bottom: 16px;
+}
+.input {
+    display: flex;
+}
+.input input {
+    width: 247px;
+    padding: 16px 32px;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 32px;
+    margin-right: 16px;
+}
+.send {
+    padding: 16px 32px;
+    gap: 8px;
+    width: 103px;
+    background: #BCFF5E;
+    border-radius: 32px;
+}
+.footer {
+    border-bottom: 1px solid #E9EBED;
+}
+.footer2 {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+.footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: #AEAEB2;
+}
+.Social_Media {
+    margin-bottom: 24px;
+}
+.Social_Media img {
+    margin-right: 10px;
+    margin-top: -15px;
+}
+.btn-menu{
+    width: 268px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-menu a {
+    text-decoration: none;
+    color: #C5C5C5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;    
+}
+
+
